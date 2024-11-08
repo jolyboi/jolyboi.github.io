@@ -1,0 +1,147 @@
+body { 
+    background-color: rgba(32, 33, 36);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#transfer {
+    position: relative;
+    font-size: 15px;
+    text-align: right;
+}
+
+#transfer > a {
+    position: absolute;
+    bottom: -58px;
+    right: 5%;
+    color: white;
+    font-family: Proxima Nova, sans-serif;
+    text-decoration: none;
+}
+
+#transfer > a:hover {
+    text-decoration: underline;
+}
+
+#google {
+
+    position: absolute;
+    bottom: -72px;
+    left: 2%;
+    font-family: Proxima Nova, sans-serif;
+    font-size: 20px;
+}
+
+#advanced_search {
+    position: absolute;
+    bottom: -130px;
+    left: 5%;
+    font-family: Proxima Nova, sans-serif;
+    font-size: 20px;
+    color: rgb(228, 144, 134);
+
+}
+
+form {
+    position: relative;  
+    left: 5%;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 200px;
+    gap: 30px;
+    font-family: Proxima Nova, sans-serif;
+    color: rgba(232, 234, 237, 0.4);
+    font-size: 15px;
+    
+}
+
+h2 {
+    color: rgba(232, 234, 237);
+    font-size: 20px;
+}
+
+
+.g  {
+    color: rgba(83, 131, 236);
+}
+
+.oe {
+    color: rgba(216, 81, 64);
+}
+
+.seco {
+    color: rgba(241, 191, 66);
+}
+
+.l {
+    color: rgba(88, 166, 92);
+}
+
+.bars {
+    outline: none;
+    position: relative;
+    background-color: rgba(32, 33, 36);
+    border: solid 1px rgb(232, 234, 237, 0.4);
+    color: white;
+    height: 20px;
+    padding-left: 5px
+    
+   
+}
+
+.bars:focus {
+    border: solid 1px rgb(111, 133, 179);
+}
+
+#one {
+    position: absolute;
+    left: 150%;
+    width: 500px;
+}
+
+#two {
+    position: absolute;
+    left: 150%;
+    width: 500px;
+}
+
+#three {
+    position: absolute;
+    left: 150%;
+    width: 500px;
+}
+
+#four {
+    position: absolute;
+    left: 150%;
+    width: 500px;
+}
+
+#button {
+    display: flex;
+    align-items: left; 
+    margin-top: 30px;
+    
+
+}
+
+button {
+    background-color: rgba(147, 179, 243);
+    border-radius: 3px;
+    border:rgba(147, 179, 243);
+    width: 150px;
+    height: 30px;
+    padding: 0px;
+    font-size: 14px;
+    color: black;
+}
+
+button:hover {
+    background-color: rgba(180, 202, 246);
+}

@@ -1,0 +1,101 @@
+body { 
+    background-color: rgba(32, 33, 36);
+    text-align: center;
+    transform: scale(0.8);
+    
+}
+
+#transfer {
+    transform: scale(1.2);
+    position: relative;
+    font-size: 13px;
+    text-align: right;
+}
+
+#transfer > a {
+    transform: scale(1.2);
+    position: absolute;
+    bottom: -5px;
+    right: 3%;
+    color: white;
+    font-family: Proxima Nova, sans-serif;
+    text-decoration: none;
+}
+
+
+#transfer > a:hover {
+    text-decoration: underline;
+}
+
+.space {
+    height: 224.5px;
+}
+
+#name {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+#google {
+    position: relative;
+    font-family: Proxima Nova, sans-serif;
+    color: white;
+    font-size: 100px;
+    font-weight: 520;
+    margin-bottom: 0px;  
+    text-shadow: 0px 7px 5px rgba(0, 0, 0, 0.2);
+}
+
+#small_word {
+    font-family: Proxima Nova, sans-serif;
+    color: rgba(85, 133, 238);
+    font-size: 17px;
+    position: absolute;    
+    top: 90%;         
+    left: 77%;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;/* justify-content: center; Center the input and button */
+    align-items: center; /* Align vertically */
+    
+}
+
+#bar { 
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 50px;
+    width: 650px;
+    height: 30px;
+    font-size: 22px;
+    font-family: Proxima Nova, sans-serif;
+    color: white;
+    border: solid rgba(78, 81, 86);
+    margin-bottom: 30px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+    background-color: rgba(78, 81, 86);
+}
+
+
+#bar:hover {
+    outline: none;
+    background-color: rgba(96, 99, 103);
+    border: solid rgba(96, 99, 103);
+}
+
+
+#bar::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+
+@media screen and (min-width: 0px) and (min-resolution: 0.001dpcm) {
+    @supports (-webkit-appearance: none) and (stroke-color: transparent) {
+        #small_word {
+            left: 77.5%;
+        }
+    }
+}

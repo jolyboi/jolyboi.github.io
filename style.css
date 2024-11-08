@@ -1,0 +1,123 @@
+body { 
+    background-color: rgba(32, 33, 36);
+    text-align: center;
+    transform: scale(0.8);
+    
+}
+
+#transfer {
+    
+    transform: scale(1.2);
+    position: relative;
+    font-size: 13px;
+    text-align: right;
+}
+
+#images {
+    transform: scale(1.2);
+    position: absolute;
+    bottom: 80%;
+    right: 3%;
+    color: white;
+    font-family: Proxima Nova, sans-serif;
+    text-decoration: none;
+}
+
+#advanced {
+    position: absolute;
+    transform: scale(1.2);
+    right: 3%;
+    top: 10px;;
+    color: white;
+    font-family: Proxima Nova, sans-serif;
+    text-decoration: none;
+}
+
+#transfer > a:hover {
+    text-decoration: underline;
+}
+
+.space {
+    height: 220px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;/* justify-content: center; Center the input and button */
+    align-items: center; /* Align vertically */
+    margin-top: 20px;
+}
+
+#google {
+    font-family: Proxima Nova, sans-serif;
+    font-size: 100px;
+    font-weight: 520;
+    margin-bottom: 30px;  
+    text-shadow: 0px 7px 5px rgba(0, 0, 0, 0.2);
+}
+
+#bar { 
+    
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 50px;
+    width: 650px;
+    height: 30px;
+    font-size: 22px;
+    font-family: Proxima Nova, sans-serif;
+    color: white;
+    border: solid rgba(78, 81, 86);
+    margin-bottom: 30px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+    background-color: rgba(78, 81, 86);
+}
+
+#box, #lucky {
+    
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+    color: rgba(232, 234, 237);
+    font-size: 17px;
+    font-family: Proxima Nova, sans-serif;
+    border: solid rgba(48, 49, 52);
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+    background-color: rgba(48, 49, 52);
+    margin-right: 10px;
+    
+}
+
+#lucky {
+    width: 164px;
+}
+
+
+#bar:hover {
+    outline: none;
+    background-color: rgba(96, 99, 103);
+    border: solid rgba(96, 99, 103);
+}
+
+#box:hover, #lucky:hover {
+    border: solid rgba(96, 99, 103) 1px;
+}
+
+#bar::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.g  {
+    color: rgba(83, 131, 236);
+}
+
+.oe {
+    color: rgba(216, 81, 64);
+}
+
+.seco {
+    color: rgba(241, 191, 66);
+}
+
+.l {
+    color: rgba(88, 166, 92);
+}
