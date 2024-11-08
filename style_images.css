@@ -79,6 +79,9 @@ form {
     background-color: rgba(78, 81, 86);
 }
 
+#bar:focus {
+    outline: none;
+}
 
 #bar:hover {
     outline: none;

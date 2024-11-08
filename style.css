@@ -91,6 +91,9 @@ form {
     width: 164px;
 }
 
+#bar:focus {
+    outline: none;
+}
 
 #bar:hover {
     outline: none;
